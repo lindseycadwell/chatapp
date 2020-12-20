@@ -1,4 +1,4 @@
-require("dotenv").config();
+import { devDB, testDB, prodDB } from '../../config';
 
 module.exports = {
   // If using onine database
@@ -7,26 +7,26 @@ module.exports = {
   // },
 
   development: {
-    database: process.env.DEVDB_NAME,
-    username: process.env.DEVDB_USER,
-    password: process.env.DEVDB_PASS,
-    host: process.env.DEVDB_HOST,
-    dialect: "postgres",
+    database: devDB.name,
+    username: devDB.username,
+    password: devDB.password,
+    host: devDB.host,
+    dialect: devDB.dialect
   },
 
   test: {
-    database: process.env.TESTDB_NAME,
-    username: process.env.TESTDB_USER,
-    password: process.env.TESTDB_PASS,
-    host: process.env.TESTDB_HOST,
-    dialect: "postgres",
+    database: testDB.name,
+    username: testDB.username,
+    password: testDB.password,
+    host: testDB.host,
+    dialect: testDB.dialect
   },
 
   production: {
-    database: process.env.PRODDB_NAME,
-    username: process.env.PRODDB_USER,
-    password: process.env.PRODDB_PASS,
-    host: process.env.PRODDB_HOST,
-    dialect: "postgres",
-  },
+    database: prodDB.name,
+    username: prodDB.username,
+    password: prodDB.password,
+    host: prodDB.host,
+    dialect: prodDB.dialect
+  }
 };

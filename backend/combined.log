@@ -1,0 +1,92 @@
+
+   Level: [32minfo[39m 
+   Message: ::1 - - [19/Dec/2020:23:44:01 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"
+
+
+   Level: [32minfo[39m 
+   Message: ::1 - - [19/Dec/2020:23:44:42 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"
+
+
+   Level: [32minfo[39m 
+Message: ::1 - - [19/Dec/2020:23:47:13 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"
+
+{
+  message: '::1 - - [20/Dec/2020:00:44:21 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"\n',
+  level: '\u001b[32minfo\u001b[39m'
+}
+{
+  message: '::1 - - [20/Dec/2020:00:47:55 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"\n',
+  level: 'info'
+}
+{
+  message: '::1 - - [20/Dec/2020:00:48:23 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"\n',
+  level: '\u001b[32minfo\u001b[39m'
+}
+{ message: 'test info', level: '\u001b[32minfo\u001b[39m' }
+{ message: 'test error', level: '\u001b[31merror\u001b[39m' }
+{ message: 'test info', level: '\u001b[32minfo\u001b[39m' }
+{ message: 'test error', level: '\u001b[31merror\u001b[39m' }
+{
+  message: '::1 - - [20/Dec/2020:01:18:13 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"\n',
+  level: '\u001b[32minfo\u001b[39m'
+}
+{ message: 'test info', level: '\u001b[32minfo\u001b[39m' }
+{ message: 'test error', level: '\u001b[31merror\u001b[39m' }
+{ message: 'test info', level: '\u001b[32minfo\u001b[39m' }
+{ message: 'test error', level: '\u001b[31merror\u001b[39m' }
+
+   Level: [32minfo[39m 
+Message: test info
+
+   Level: [31merror[39m 
+Message: test error
+
+   Level: [32minfo[39m 
+Message: test info
+
+   Level: [31merror[39m 
+Message: test error
+
+   Level: [32minfo[39m 
+Message: test info in winston config file
+
+   Level: [31merror[39m 
+Message: test error in winston config file
+
+   Level: [32minfo[39m 
+    Message: test info in winston config file
+
+   Level: [31merror[39m 
+    Message: test error in winston config file
+
+   Level: [32minfo[39m 
+   Message: test info in winston config file
+
+   Level: [31merror[39m 
+   Message: test error in winston config file
+
+   Level: [32minfo[39m 
+   Message: test info in winston config file
+
+   Level: [31merror[39m 
+   Message: test error in winston config file
+
+   Level: [32minfo[39m 
+   Message: test info in controller
+
+   Level: [31merror[39m 
+   Message: test error in controller
+
+   Level: [32minfo[39m 
+   Message: ::1 - - [20/Dec/2020:03:02:30 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"
+
+
+   Level: [32minfo[39m 
+   Message: test info in controller
+
+   Level: [31merror[39m 
+   Message: test error in controller
+
+   Level: [32minfo[39m 
+   Message: ::1 - - [20/Dec/2020:03:04:12 +0000] "GET /api/test HTTP/1.1" 200 50 "-" "PostmanRuntime/7.26.8"
+
